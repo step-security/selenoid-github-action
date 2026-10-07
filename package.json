@@ -1,0 +1,28 @@
+{
+  "name": "selenoid-github-action",
+  "version": "2.0.0",
+  "description": "This action starts selenoid server for your testing needs inside github actions workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-security/selenoid-github-action.git"
+  },
+  "keywords": [],
+  "author": "step-security",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/step-security/selenoid-github-action/issues"
+  },
+  "homepage": "https://github.com/step-security/selenoid-github-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "axios": "^1.20.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.45.0"
+  }
+}
