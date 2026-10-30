@@ -20,7 +20,7 @@
   "homepage": "https://github.com/step-security/selenoid-github-action#readme",
   "dependencies": {
     "@actions/core": "^2.0.0",
-    "axios": "^1.20.0"
+    "axios": "^1.21.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.45.0"
